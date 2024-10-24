@@ -1,7 +1,31 @@
+body {
+    font-family: Arial;
+}
+
+.form-container {
+    border: 2px solid #ccc;
+    border-radius: 20px;   
+    padding: 20px;          
+    width: 300px;          
+    margin: auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 .tooltip-email {
-    visibility: hidden;}
+    visibility: hidden;
+    position: absolute;
+    background-color: #ffeb3bd8;
+    border-radius: 5px;
+    margin-left: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip-container {
+        position: relative; 
+}
 
 #email:hover + .tooltip-email,
 #email:focus + .tooltip-email {
         visibility: visible;
-    }
+}
+
