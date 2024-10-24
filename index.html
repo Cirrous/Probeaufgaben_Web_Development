@@ -23,7 +23,15 @@
         </div><br>
     
         <label for="telefon">Telefonnummer:</label><br>
+        <div class="phone-input">
+            <select id="country-code" name="country-code" required>
+                <option value="">Vorwahl wählen</option>
+                <option value="+49">+49</option>
+                <option value="+41">+41</option>
+                <option value="+43">+43</option>
+            </select>
         <input type="tel" id="telefon" name="telefon" pattern="[0-9]{6,15}" required><br><br>
+    </div><br>
     
         <button type="submit">Absenden</button>
     </form>
