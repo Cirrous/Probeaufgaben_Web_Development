@@ -1,0 +1,7 @@
+.tooltip-email {
+    visibility: hidden;}
+
+#email:hover + .tooltip-email,
+#email:focus + .tooltip-email {
+        visibility: visible;
+    }
